@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="5">
   <diagram name="high-level" id="A-T3FALHQHnoEPlZ2RTH">
     <mxGraphModel dx="1358" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xa506Pm99PdNL205OHfh" name="payments">
-    <mxGraphModel dx="550" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="650" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="foT8BfTnzbgA4M-ru4aY-10" value="opens displaying a promo input field" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="boDV8NeetJ-tc5OaTlMc-3" source="foT8BfTnzbgA4M-ru4aY-8" target="foT8BfTnzbgA4M-ru4aY-3" edge="1">
+        <mxCell id="foT8BfTnzbgA4M-ru4aY-10" value="display" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="boDV8NeetJ-tc5OaTlMc-3" source="foT8BfTnzbgA4M-ru4aY-8" target="foT8BfTnzbgA4M-ru4aY-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170.78947368421086" y="210" as="targetPoint" />
             <Array as="points">
@@ -446,11 +446,20 @@
             <mxPoint x="2399.81" y="1094.3000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9SkbVddxZEh_-lmbiVLy-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1750" y="120" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9SkbVddxZEh_-lmbiVLy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9SkbVddxZEh_-lmbiVLy-1">
+          <mxGeometry width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9SkbVddxZEh_-lmbiVLy-3" value="&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;payments sitemap&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/checkout(service, subscription)&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;protected&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a dynamic checkout page for pamylka products that&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;initiates the transaction&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9SkbVddxZEh_-lmbiVLy-1">
+          <mxGeometry x="18.569999999999936" y="25" width="300" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="6nnRf3l5OVebZOIz8qOR" name="Auth">
-    <mxGraphModel dx="2150" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="463" dy="-447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -883,6 +892,74 @@
         </mxCell>
         <mxCell id="nVjOgg0cQ1--4-p5LyrW-38" value="whenever a private api&amp;nbsp;&lt;div&gt;request occurs&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="nVjOgg0cQ1--4-p5LyrW-1" vertex="1">
           <mxGeometry x="50" y="435" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sl9pxSPXB-YTGvc-waM0-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1330" y="1160" width="142" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="sl9pxSPXB-YTGvc-waM0-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sl9pxSPXB-YTGvc-waM0-1">
+          <mxGeometry width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sl9pxSPXB-YTGvc-waM0-3" value="&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;auth sitemap&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/signup&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;guestOnly&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;signup page&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/login&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;guestOnly&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;login page&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sl9pxSPXB-YTGvc-waM0-1">
+          <mxGeometry x="10.999999999999936" y="10" width="120" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g0rmCOdKGWZmGUxVSIc7" name="profile">
+    <mxGraphModel dx="385" dy="-486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1460" y="1150" width="210.99999999999994" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TS8kzBuipfmvXnra_Yzk-1">
+          <mxGeometry x="-10" y="-36" width="220" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-3" value="&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;profile sitemap&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/profile&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;protected&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a general profile page&amp;nbsp;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;showing&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;an overview&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/profile/transaction(transaction)&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;protected&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a page to see transaction details&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/profile/subscription(subscription)&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;protected&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a page to see subscription details&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TS8kzBuipfmvXnra_Yzk-1">
+          <mxGeometry x="10.999999999999936" y="-25" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TS8kzBuipfmvXnra_Yzk-4" target="TS8kzBuipfmvXnra_Yzk-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1390" />
+              <mxPoint x="954" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-13" value="a bar to navigate between" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TS8kzBuipfmvXnra_Yzk-4" target="TS8kzBuipfmvXnra_Yzk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TS8kzBuipfmvXnra_Yzk-4" target="TS8kzBuipfmvXnra_Yzk-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1390" />
+              <mxPoint x="1260" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ARcIpoiZRK0NH-TV0Uc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TS8kzBuipfmvXnra_Yzk-4" target="8ARcIpoiZRK0NH-TV0Uc-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1390" />
+              <mxPoint x="1400" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-4" value="profile page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-9" value="transactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="894" y="1439" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-10" value="subscriptions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1439" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TS8kzBuipfmvXnra_Yzk-11" value="personal info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1439" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ARcIpoiZRK0NH-TV0Uc-1" value="settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1439" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
