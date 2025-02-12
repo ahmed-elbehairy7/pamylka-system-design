@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oDd5ANrdaxMVgBuEbNdm" name="main">
-    <mxGraphModel dx="463" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-42" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,15 +142,15 @@
           <mxGeometry x="1010" y="1080" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1PGbmvX5maBW0LA0Hvin-9" value="dashboard ui" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=42;" vertex="1" parent="1">
-          <mxGeometry x="1130.01" y="1110" width="100" height="610" as="geometry" />
+          <mxGeometry x="1160" y="1110" width="100" height="610" as="geometry" />
         </mxCell>
         <mxCell id="1PGbmvX5maBW0LA0Hvin-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1PGbmvX5maBW0LA0Hvin-9">
           <mxGeometry x="45" y="80" width="10" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="1PGbmvX5maBW0LA0Hvin-11" value="input data" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="1PGbmvX5maBW0LA0Hvin-11" value="create a new post" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="1PGbmvX5maBW0LA0Hvin-10">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1208" y="1000" as="sourcePoint" />
-            <mxPoint x="1343" y="1000" as="targetPoint" />
+            <mxPoint x="1040" y="1200" as="sourcePoint" />
+            <mxPoint x="1175" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1PGbmvX5maBW0LA0Hvin-12" value="validate&lt;div&gt;user data&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
@@ -166,6 +166,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1393" y="1060" as="sourcePoint" />
             <mxPoint x="1190" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1PGbmvX5maBW0LA0Hvin-14" value="show dialoge to enter&lt;div&gt;text and media&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1209.5" y="1249.9999999999998" as="sourcePoint" />
+            <mxPoint x="1040" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
