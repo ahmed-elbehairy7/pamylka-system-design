@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oDd5ANrdaxMVgBuEbNdm" name="main">
-    <mxGraphModel dx="25" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="63" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
         </mxCell>
         <mxCell id="1PGbmvX5maBW0LA0Hvin-14" value="show dialoge to enter&lt;div&gt;text and media&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1209.5" y="1639.9999999999998" as="sourcePoint" />
+            <mxPoint x="1205" y="1640" as="sourcePoint" />
             <mxPoint x="1040" y="1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -249,10 +249,55 @@
             <mxPoint x="1403" y="1721" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FCVqnQjpbM8ll9bisBGO-1" value="201 created" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-1" value="201 created PostData" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1413" y="1760" as="sourcePoint" />
-            <mxPoint x="1215" y="1760" as="targetPoint" />
+            <mxPoint x="1413" y="1790" as="sourcePoint" />
+            <mxPoint x="1215" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-2" value="activate profile" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1416" y="1740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1446" y="1770" />
+            </Array>
+            <mxPoint x="1421" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-3" value="GET /postsData" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1216" y="1830" as="sourcePoint" />
+            <mxPoint x="1403" y="1831" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-4" value="200 ok [PostData]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1413" y="1870" as="sourcePoint" />
+            <mxPoint x="1215" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-5" value="GET /posts" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1216" y="1906" as="sourcePoint" />
+            <mxPoint x="1403" y="1907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-6" value="200 ok [Post]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1413" y="1940" as="sourcePoint" />
+            <mxPoint x="1215" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-8" value="user wants to see his posts" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1040" y="1810" as="sourcePoint" />
+            <mxPoint x="1205" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCVqnQjpbM8ll9bisBGO-9" value="user wants to see his published posts" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1040" y="1890" as="sourcePoint" />
+            <mxPoint x="1205" y="1890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
