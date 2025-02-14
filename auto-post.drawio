@@ -323,58 +323,36 @@
         <mxCell id="qnCO7IN75JWVIPcF3vgf-5" value="&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;scheduling&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;actor: system&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;scenario:&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;system should be able to store posts data provided by&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;user, schedule them to be published on time, posting&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;to groups or publishing for a page&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qnCO7IN75JWVIPcF3vgf-1">
           <mxGeometry x="26" y="20" width="310" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=60;" vertex="1" parent="1">
-          <mxGeometry x="130.01" y="380" width="29.99" height="860" as="geometry" />
+        <mxCell id="3lQ58-uKnRegU32KpCqM-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LlGMNosgxMFHkSnMfQhp-1">
-          <mxGeometry x="10" y="72" width="10" height="788" as="geometry" />
-        </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-3" value="user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="350" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-4" value="dashboard ui" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=42;" vertex="1" parent="1">
-          <mxGeometry x="270" y="380" width="100" height="850" as="geometry" />
-        </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LlGMNosgxMFHkSnMfQhp-4">
-          <mxGeometry x="45" y="80" width="10" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-6" value="check if user&amp;nbsp;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;configured his profile&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="3lQ58-uKnRegU32KpCqM-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="3lQ58-uKnRegU32KpCqM-1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="326" y="570" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="356" y="600" />
-            </Array>
-            <mxPoint x="331" y="600" as="targetPoint" />
+            <mxPoint x="235" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-8" value="API &amp;amp; DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=42;" vertex="1" parent="1">
-          <mxGeometry x="470" y="380" width="100" height="850" as="geometry" />
+        <mxCell id="3lQ58-uKnRegU32KpCqM-3" value="user updates or creates a profile" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="175" y="390" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LlGMNosgxMFHkSnMfQhp-8">
-          <mxGeometry x="45" y="80" width="10" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-10" value="configure his profile" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="150" y="480" as="sourcePoint" />
-            <mxPoint x="315" y="480" as="targetPoint" />
+        <mxCell id="3lQ58-uKnRegU32KpCqM-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="3lQ58-uKnRegU32KpCqM-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LlGMNosgxMFHkSnMfQhp-11" value="PUT /profile | POST /profile" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="326" y="495" as="sourcePoint" />
-            <mxPoint x="513" y="496" as="targetPoint" />
+        <mxCell id="3lQ58-uKnRegU32KpCqM-6" value="scheduling it directly using agends.js" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="175" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3lQ58-uKnRegU32KpCqM-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="3lQ58-uKnRegU32KpCqM-6" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="voUXuJ3lyusAGc8DedLL-1" value="scheduling instance" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=42;" vertex="1" parent="1">
-          <mxGeometry x="670" y="380" width="100" height="850" as="geometry" />
+        <mxCell id="3lQ58-uKnRegU32KpCqM-8" value="publish the posts for every page at the specific time" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="175" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="voUXuJ3lyusAGc8DedLL-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="voUXuJ3lyusAGc8DedLL-1">
-          <mxGeometry x="45" y="80" width="10" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="voUXuJ3lyusAGc8DedLL-3" value="PUT /profile | POST /profile" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="525" y="510" as="sourcePoint" />
-            <mxPoint x="715" y="511" as="targetPoint" />
+        <mxCell id="3lQ58-uKnRegU32KpCqM-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="3lQ58-uKnRegU32KpCqM-8" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
