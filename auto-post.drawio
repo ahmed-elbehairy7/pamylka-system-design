@@ -513,15 +513,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y1wKoS1y5LKKzcrTX2Nv-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1275" y="780" width="360" height="258" as="geometry" />
-        </mxCell>
-        <mxCell id="Y1wKoS1y5LKKzcrTX2Nv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y1wKoS1y5LKKzcrTX2Nv-1">
-          <mxGeometry width="360" height="258" as="geometry" />
-        </mxCell>
-        <mxCell id="Y1wKoS1y5LKKzcrTX2Nv-3" value="&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b data--h-bstatus=&quot;0OBSERVED&quot;&gt;main sitemap&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/dashboard&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;protected&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a page containing user&#39;s postdata and posts, a create&amp;nbsp;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;new post button, then shows a window for user to add&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;post&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/profile&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;protected&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a page for the user to configure his profile&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;br data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;/pricing&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;public&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;a page containing the pricing details of the service&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Y1wKoS1y5LKKzcrTX2Nv-1">
-          <mxGeometry x="18.569999999999936" y="9" width="310" height="230" as="geometry" />
-        </mxCell>
         <mxCell id="Y1wKoS1y5LKKzcrTX2Nv-5" value="profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="510" width="120" height="60" as="geometry" />
         </mxCell>
