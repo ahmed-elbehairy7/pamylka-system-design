@@ -140,7 +140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xa506Pm99PdNL205OHfh" name="payments">
-    <mxGraphModel dx="200" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
           <mxGeometry x="430" y="70" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="foT8BfTnzbgA4M-ru4aY-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="foT8BfTnzbgA4M-ru4aY-7" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="420" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="430" as="geometry" />
         </mxCell>
         <mxCell id="foT8BfTnzbgA4M-ru4aY-9" value="sending to checkout page" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="boDV8NeetJ-tc5OaTlMc-3" source="foT8BfTnzbgA4M-ru4aY-5" edge="1">
           <mxGeometry y="5" relative="1" as="geometry">
@@ -422,7 +422,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="80BnC0FnLb9QQphZul9d-1" value="&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;redirect(POST /transactions&lt;/span&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;(user,&amp;nbsp;&lt;/span&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;background-color: rgb(251, 251, 251); font-size: 12px; text-align: left; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;promoCode,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div data--h-bstatus=&quot;0OBSERVED&quot;&gt;&lt;span data--h-bstatus=&quot;0OBSERVED&quot; style=&quot;background-color: rgb(251, 251, 251); font-size: 12px; text-align: left; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service, subscription))&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="boDV8NeetJ-tc5OaTlMc-3" edge="1">
-          <mxGeometry x="-0.0067" y="-70" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.0067" y="-50" width="80" relative="1" as="geometry">
             <mxPoint x="486" y="530" as="sourcePoint" />
             <mxPoint x="635" y="530" as="targetPoint" />
             <mxPoint as="offset" />
