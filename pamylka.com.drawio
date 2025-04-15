@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Qnf2eaOjIHQVNr2A7_gB-13" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="850" y="150" width="480" height="170" as="geometry" />
+          <mxGeometry x="870" y="150" width="480" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Qnf2eaOjIHQVNr2A7_gB-11" value="" style="whiteSpace=wrap;html=1;fontSize=11;" parent="Qnf2eaOjIHQVNr2A7_gB-13" vertex="1">
           <mxGeometry width="480" height="170" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry x="30" y="730" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Qnf2eaOjIHQVNr2A7_gB-15" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="40" width="790" height="290" as="geometry" />
+          <mxGeometry x="50" y="40" width="790" height="290" as="geometry" />
         </mxCell>
         <mxCell id="4O8g2oR4PRuLh8lg2v8v-18" value="" style="whiteSpace=wrap;html=1;fontSize=11;" parent="Qnf2eaOjIHQVNr2A7_gB-15" vertex="1">
           <mxGeometry width="790" height="280" as="geometry" />
@@ -140,7 +140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xa506Pm99PdNL205OHfh" name="payments">
-    <mxGraphModel dx="1483" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="756" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
